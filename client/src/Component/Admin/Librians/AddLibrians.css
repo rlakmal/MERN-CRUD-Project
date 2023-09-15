@@ -1,0 +1,126 @@
+.li-main {
+  width: 500px;
+  background-size: cover;
+}
+
+.li-front {
+  position: fixed;
+  margin-top: 20px;
+  display: flex;
+  margin-left: 280px;
+  height: 600px;
+  width: 350px;
+}
+
+.li-front form {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  font-weight: bold;
+  border-radius: 25px;
+  background-color: rgba(221, 225, 244, 0.85);
+}
+.li-front h2 {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding-bottom: 50px;
+}
+.li-front form label {
+  font-size: 18px;
+}
+.li-front form input {
+  font-size: 19px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-radius: 26px;
+  border: none;
+}
+.li-front form button {
+  background-color: rgb(8, 116, 23);
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 20px;
+  height: 35px;
+  cursor: pointer;
+  color: white;
+}
+
+.li-front form .close-btn {
+  margin-left: auto;
+  font-size: 20px;
+  width: 20px;
+  background-color: rgb(231, 92, 92);
+  cursor: pointer;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+.li-table {
+  position: fixed;
+  margin-left: 750px;
+  margin-top: 20px;
+}
+.li-table h1 {
+ 
+  padding-left: 100px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding-top: -150px;
+}
+
+.li-table table thead tr {
+  line-height: 40px;
+  font-size: 18px;
+}
+.li-table table tbody tr {
+  font-size: 14px;
+}
+
+.li-table table thead tr th,
+.li-table table tbody tr td {
+  min-width: 120px;
+  padding: 7px;
+  text-align: center;
+  border-radius: 14px;
+  background-color: #aec5ae;
+}
+
+.li-table table thead tr th{
+  background-color: rgb(68 160 79);
+}
+
+.li-btn-edit {
+  font-size: 13px;
+  padding: 5px 10px;
+  margin: 0px 10px;
+  background-color: rgb(232 228 107 / 90%);
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  color: rgb(0, 0, 0);
+}
+.li-btn-delete {
+  font-size: 13px;
+  padding: 5px 10px;
+  margin: 0px 10px;
+  background-color: rgb(243, 121, 121);
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.vl{
+    
+    border-left: 0.1px solid rgb(170, 170, 170);
+    height: 600px;
+    position: absolute;
+    left: 46%;
+    margin-top: 75px;
+    top: 0;
+}
