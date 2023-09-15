@@ -1,0 +1,52 @@
+/* .Admain {
+  float: left;
+  width: 75%;
+} */
+.AdcontainerTwo {
+  float: right;
+  width: 1300px;
+  display: flex;
+  background-image: url(../../../img/admin1.jpg);
+  background-repeat: no-repeat;
+  margin-top: 10px;
+}
+.Adhead {
+  margin-left: 285px;
+}
+
+.Admemlist {
+  width: 450px;
+  height: 250px;
+  padding: 10px;
+  margin: 180px;
+  background-color: rgba(7, 14, 146, 0.7);
+  border-radius: 25px;
+  border: rgba(235, 236, 242, 0.5) solid 12px;
+}
+.Admemlist h2,
+.Admemlist2 h2 {
+  padding-bottom: 20px;
+  text-align: center;
+  color: aliceblue;
+  font-size: 35px;
+}
+
+.Admemlist h1,
+.Admemlist2 h1 {
+  padding-top: 5px;
+  text-align: center;
+  font-size: 100px;
+  color: aliceblue;
+}
+.Admemlist2 {
+  margin-top: 180px;
+  width: 450px;
+  height: 250px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 10px;
+  float: right;
+  background-color: rgba(7, 14, 146, 0.7);
+  border-radius: 25px;
+  border: rgba(235, 236, 242, 0.5) solid 12px;
+}

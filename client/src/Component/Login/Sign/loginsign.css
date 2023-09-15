@@ -1,0 +1,59 @@
+.maincontainerlog {
+  width: 100%;
+  height: 80%;
+  background-size: cover;
+  position: absolute;
+}
+
+.frontcontainerlog {
+  position: relative;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frontcontainerlog form {
+  width: 450px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  font-weight: bold;
+  border-radius: 25px;
+  background-color: rgba(213, 215, 218, 0.85);
+}
+.frontcontainerlog h2 {
+  font-weight: bold;
+  color: rgb(254, 254, 255);
+  text-align: center;
+  padding-bottom: 50px;
+}
+.frontcontainerlog form label {
+  font-size: 18px;
+  width: 300px;
+  float: left;
+}
+.frontcontainerlog form input {
+  font-size: 15px;
+  padding: 5px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border-radius: 26px;
+  border: none;
+}
+.frontcontainerlog form button {
+  background-color: rgb(89, 194, 103);
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 20px;
+  height: 35px;
+  cursor: pointer;
+  color: white;
+}
+.sign {
+  color: rgb(202, 42, 42);
+  padding-top:15px;
+}

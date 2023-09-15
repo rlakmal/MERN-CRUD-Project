@@ -1,0 +1,65 @@
+.bookContainer {
+  margin: 5%;
+  background-color: rgb(237, 237, 239);
+}
+.bookContainer h1 {
+  padding-left: 450px;
+  margin-bottom: 50px;
+  background-color: rgba(226, 220, 239, 0.8);
+}
+
+.block {
+  padding: 20px;
+  width: 400px;
+  height: 220px;
+  background-color: rgba(5, 53, 126, 0.6);
+  margin-top: 30px;
+  margin-left: 40px;
+  display: inline-block;
+  border-radius: 15px;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  padding-left: 10px;
+  position: relative;
+  box-shadow: 2px 4px 5px 6px  rgb(132, 134, 138);
+}
+.block button {
+  margin-top: 40px;
+  margin-left: 35px;
+}
+.block li {
+  font-weight: bold;
+}
+.block span {
+  color: rgb(40, 23, 23);
+  font-size: 15px;
+}
+.bk-btn-edit {
+  font-size: 13px;
+  padding: 5px 10px;
+  margin: 0px 10px;
+  background-color: rgb(185, 182, 214);
+  border: none;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+.bk-btn-delete {
+  font-size: 13px;
+  padding: 5px 10px;
+  margin: 0px 10px;
+  background-color: rgb(246, 242, 242);
+  border: none;
+  cursor: pointer;
+}
+.element{
+  padding-top: -40px;
+  padding-left: 120px;
+}
+.search-container input{
+  margin-left: 36%;
+  width: 250px;
+  height: 30px;
+  border-radius:10px;
+
+
+}
