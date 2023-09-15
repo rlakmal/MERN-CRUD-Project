@@ -1,0 +1,162 @@
+.sh-MainContainer {
+  padding-left: 200px;
+  background-color: rgb(237, 234, 255);
+  margin-bottom: 57px;
+  height: 104vh;
+}
+.sh-MainContainer h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  position: relative;
+  left: 14vw;
+  width: 50vw;
+}
+.link {
+  background-color: rgb(129, 175, 214);
+  font-size: 13px;
+  padding: 5px;
+}
+
+.sh-block {
+  margin-top: 15px;
+    margin-left: 200px;
+    padding-left: 250px;
+    width: 800px;
+    height: 619px;
+    background-color: #aec5ae;
+    display: inline-block;
+    border-radius: 15px;
+    font-size: 18px;
+    color: rgb(27 25 25 / 84%);
+}
+.sh-block button {
+  margin-top: 10px;
+  margin-left: 30px;
+  width: 8.5vw;
+  height: 5vh;
+}
+.sh-block li {
+  line-height: 60px;
+  font-weight: bold;
+}
+.sh-block span {
+  float: left;
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    font-family: monospace;
+}
+.sh-div1 {
+  background-color: rgb(68 160 79);
+  margin-bottom: 20px;
+  max-width: 385px;
+  padding: 27px;
+  box-shadow: gray 10px 10px 5px 0px;
+  border-radius: 15px;
+}
+.sh-div2 {
+  background-color: rgb(68 160 79);
+  margin-bottom: 20px;
+  max-width: 385px;
+  padding: 27px;
+  box-shadow: gray 10px 10px 5px 0px;
+  border-radius: 15px;
+}
+
+.bk-btn-edit {
+  font-size: 13px;
+    padding: 5px 10px;
+    margin: 0px 10px;
+    background-color: rgb(237 230 130);
+    border: none;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+}
+.bk-btn-delete {
+  font-size: 13px;
+  padding: 5px 10px;
+  margin: 0px 10px;
+  background-color: rgb(235, 105, 105);
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.sh-container {
+  padding-left: 220px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sh-container form {
+  margin-top: 600px;
+  position: absolute;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: rgba(186, 201, 226, 0.85);
+}
+.sh-container h1 {
+  font-weight: bold;
+  color: rgb(254, 254, 255);
+  text-align: center;
+  padding-bottom: 50px;
+}
+.sh-container form label {
+  font-size: 16px;
+}
+.sh-container form input {
+  font-size: 15px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+#subBtn{
+  position: relative;
+    left: 20vh;
+    width: 6vw;
+    height: 4vh;
+    cursor: pointer;
+}
+
+#subBtn:hover{
+  background-color: rgb(33, 125, 33);
+}
+
+
+
+.submit {
+  color: aliceblue;
+  text-align: center;
+  background-color: rgb(135, 237, 149);
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 20px;
+  height: 35px;
+  cursor: pointer;
+}
+.create_she {
+  margin-left: 582px;
+  background-color: rgb(69, 65, 108);
+  color: aliceblue;
+  margin-top: 100px;
+  padding: 5px;
+}
+
+.crsh {
+  margin-top: 100px;
+}
+
+#sheduleBtn {
+  background-color: green;
+}
