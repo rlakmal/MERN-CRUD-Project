@@ -1,0 +1,125 @@
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  margin: 0px;
+  line-height: 30px;
+  scroll-behavior: smooth;
+  background-image: url(../../../img/blob.svg);
+  background-repeat: repeat;
+  background-size: cover;
+  opacity: 0.9;
+  width: 98.9vw;
+}
+
+.containerTwo {
+  display: flex;
+  margin-top: 10px;
+  height: 520px;
+}
+
+.memlist {
+  width: 450px;
+  height: 250px;
+  padding: 60px;
+  margin: 180px;
+  background-color: rgba(7, 14, 146, 0.7);
+  float: left;
+  border-radius: 25px;
+  border: rgba(235, 236, 242, 0.5) solid 12px;
+}
+.memlist h2,
+.memlist2 h2 {
+  padding-bottom: 20px;
+  text-align: center;
+  color: aliceblue;
+  font-size: 35px;
+}
+
+.memlist h1,
+.memlist2 h1 {
+  padding-top: 25px;
+  text-align: center;
+  font-size: 100px;
+  color: aliceblue;
+}
+.memlist2 {
+  margin-top: 180px;
+  width: 450px;
+  height: 250px;
+  padding: 60px;
+  float: right;
+  background-color: rgba(7, 14, 146, 0.7);
+  border-radius: 25px;
+  border: rgba(235, 236, 242, 0.5) solid 12px;
+}
+
+#searchbox {
+  margin-top: 50px;
+  margin-left: 500px;
+  width: 500px;
+  height: 55px;
+  background-color: #c9dbea;
+  border-radius: 15px;
+  padding-left: 10px;
+}
+
+#searchbox label {
+  position: absolute;
+  font-size: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+#searchbox input {
+  font-size: 20px;
+  width: 250px;
+  height: 40px;
+  padding-top: 10px;
+  margin-left: 30px;
+  margin-top: 7px;
+  justify-content: center;
+  text-align: center;
+  border: none;
+}
+.childcontainer {
+  background-image: url(../../../img/7759.jpg);
+  line-height: 100px;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+  height: 65vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+}
+.childcontainer h1 {
+  color: #120c49;
+  text-shadow: #665fa7;
+  margin-top: -200px;
+  margin-left: 200px;
+  padding: 25px;
+  border-radius: 39px;
+  font-family: serif;
+  font-size: 60px;
+  font-weight: bolder;
+  background-color: rgba(222, 236, 246, 0.8);
+}
+.childcontainer span {
+  color: red;
+}
+.containerTwo {
+  background-image: url(../../../img/5100731.jpg);
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.sector {
+  margin-left: 100px;
+  margin-top: 90px;
+  font-size: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
