@@ -1,0 +1,73 @@
+.doli-table {
+  position: fixed;
+  margin-left: 450px;
+  margin-top: 50px;
+}
+.doli-table h1 {
+  padding-left: 100px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding-top: -150px;
+}
+
+.doli-table table thead tr {
+  background-color: rgb(198, 216, 239);
+  line-height: 40px;
+  font-size: 18px;
+}
+.doli-table table tbody tr {
+  background-color: rgb(240, 240, 240);
+  font-size: 14px;
+}
+
+.doli-table table thead tr th,
+.doli-table table tbody tr td {
+  min-width: 180px;
+  padding: 7px;
+  text-align: center;
+  border-radius: 14px;
+  background-color: #aec5ae;
+}
+
+.doli-table table thead tr th{
+  background-color: rgb(68 160 79);
+}
+
+.doli-btn-edit {
+  font-size: 13px;
+  padding: 5px 10px;
+  margin: 0px 10px;
+  background-color: rgb(232 228 107 / 90%);
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+.doli-btn-delete {
+  font-size: 13px;
+  padding: 5px 10px;
+  margin: 0px 10px;
+  background-color: rgb(243, 121, 121);
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.create_btn {
+  margin-left: 750px;
+    margin-top: 100px;
+    background-color: rgb(121 121 135);
+    padding: 7px;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.create_btn:hover{
+  background-color: rgb(75, 75, 85);
+}
+
+.head {
+  margin-bottom: 20px;
+  align-items: center;
+  margin-left: 550px;
+}
+
